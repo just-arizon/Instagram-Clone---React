@@ -1,5 +1,5 @@
 import React from 'react';
-import React from './Timeline.css'
+import './Timeline.css'
 
 function Timeline() {
   return (
