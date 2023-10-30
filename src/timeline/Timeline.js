@@ -1,7 +1,7 @@
 import React from 'react';
 import './Timeline.css'
 import Suggestion from './Suggestion';
-// import Post from './posts/Post';
+import Post from './posts/Post';
 
 function Timeline() {
   return (
