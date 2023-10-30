@@ -9,3 +9,7 @@
 width: 120px;
 margin: 25px;
 }
+.sidenav__buttons{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sidenav.css";
+import { Icon } from '@iconify/react';
 function Sidenav() {
   return (
     <div className='sidenav'>
@@ -10,12 +11,49 @@ function Sidenav() {
       />
 
     <div className='sidenav__buttons'>
-      <div className='side__button'>
+      <button className='sidenav__button'>
         {/* Icons */}
+        <Icon icon="ic:round-home" />
         <span>Home</span>
-      </div>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="bi:search" />
+        <span>Search</span>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="ic:round-explore" />
+        <span>Explore</span>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="bi:camera-reels-fill" />
+        <span>Reels</span>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="jam:messages-f" />
+        <span>Messages</span>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="mdi:heart" />
+        <span>Notications</span>
+      </button>
+      <button className='sidenav__button'>
+        {/* Icons */}
+        <Icon icon="ph:plus-fill" />
+        <span>Create</span>
+      </button>
     </div>
-      </div>
+    <div className='sidenav__more'>
+      <button className='sidenav__button'>
+      <Icon icon="ic:round-menu" />
+      <span>More</span>
+      </button>
+    </div>
+  </div>
   )
 }
 
