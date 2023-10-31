@@ -13,7 +13,7 @@ function Sidenav() {
     <div className='sidenav__buttons'>
       <button className='sidenav__button'>
         {/* Icons */}
-        <Icon icon="ic:round-home" />
+        <Icon icon="teenyicons:home-solid" />
         <span>Home</span>
       </button>
       <button className='sidenav__button'>
