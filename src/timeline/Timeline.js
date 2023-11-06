@@ -7,9 +7,9 @@ function Timeline() {
   const [posts, setPosts] = useState([
     {
       user: "Arizon",
-      postImage: "https://www.pexels.com/photo/silhouette-of-man-standing-near-body-of-water-1136571/",
+      postImage: "https://images.pexels.com/photos/531474/pexels-photo-531474.jpeg?auto=compress&cs=tinysrgb&w=600",
       Likes: 12,
-      timestamps: "4hr ago",
+      timestamps: "4h",
     }
     ,
     {
@@ -39,7 +39,12 @@ function Timeline() {
          <div className='timeline__left'>
            <div className='timeline__post'>
            {posts.map((post) => (
-            <Post />
+            <Post
+            user={post.user}
+            postImage={post.postImage}
+            Likes={post.likes}
+            timestamp={post.timestamp}
+          />
           ))}
            </div>
         </div>
