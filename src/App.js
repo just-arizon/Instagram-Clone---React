@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Homepage from './Homepage';
+import Authentication from './authentication/Authentication';
 
 function App() {
   return (
     <div className="App">
-    <Homepage />
+    {/* <Homepage /> */}
+     <Authentication />
   </div>
   );
 }
