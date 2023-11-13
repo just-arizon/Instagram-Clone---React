@@ -9,7 +9,7 @@ function Timeline() {
       user: "Arizon",
       postImage: "https://images.pexels.com/photos/531474/pexels-photo-531474.jpeg?auto=compress&cs=tinysrgb&w=600",
       Likes: 12,
-      timestamps: "4h",
+      timestamps: "4h  ago",
     }
     ,
     {
@@ -42,8 +42,8 @@ function Timeline() {
             <Post
             user={post.user}
             postImage={post.postImage}
-            Likes={post.likes}
-            timestamp={post.timestamp}
+            Likes={post.Likes}
+            timestamps={post.timestamps}
           />
           ))}
            </div>

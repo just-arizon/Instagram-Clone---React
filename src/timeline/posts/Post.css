@@ -18,6 +18,7 @@
 .post__headerAuthor > span{
     color: gray;
     font-size: 15px;
+    padding: .5em;
 }
 .post__image > img{
     width: 100%;
