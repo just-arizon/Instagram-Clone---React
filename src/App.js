@@ -6,8 +6,8 @@ import Authentication from './authentication/Authentication';
 function App() {
   return (
     <div className="App">
-    {/* <Homepage /> */}
-     <Authentication />
+    <Homepage />
+     {/* <Authentication /> */}
   </div>
   );
 }

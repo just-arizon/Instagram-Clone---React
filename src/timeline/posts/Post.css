@@ -1,6 +1,7 @@
 .post{
     width: 550px;   
     margin: 30px 40px 50px 40px;
+    padding: 0 50px ;
 }
 .post__header{
     display: flex;
@@ -28,7 +29,15 @@
 .post__footer{
     
 }
-
+.post__iconsMain{
+    display: flex;
+    gap: 1em;
+}
+.message_btn,
+.comment_btn,
+.like_btn{
+  cursor: pointer;
+}
 .post__footerIcons{
  display: flex;
  flex-direction: row;

@@ -1,7 +1,8 @@
 .suggestions {
     margin-top: 30px;
-    margin-right: 20px;
-    position: fixed;
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
   }
   
   .suggestions__title {
@@ -47,3 +48,8 @@
     font-weight: 600;
     font-size: 14px;
   }
+  @media screen and (max-width: 1080px){
+    .suggestions{
+        display: none;
+    }
+}
