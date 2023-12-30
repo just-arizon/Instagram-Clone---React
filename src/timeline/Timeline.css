@@ -2,11 +2,24 @@
     display: flex;
     flex-direction: row;
     border-left: 1px solid  rgba(255, 255, 255, 0.128);
-    border-right: 1px solid  rgba(255, 255, 255, 0.128);
+    justify-content: center;
 }
 .timeline__left{
     flex: .7;
 }
 .timeline__right{
     flex: .7;
+}
+@media screen and (max-width: 480px){
+    .timeline{
+    border-left: none;
+    width: 100%;
+    padding-top: 2em;
+}
+.timeline__left{
+    flex: 1;
+}
+.timeline__right{
+    display: none;
+}
 }

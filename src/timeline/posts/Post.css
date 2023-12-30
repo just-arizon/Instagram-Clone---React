@@ -1,6 +1,6 @@
 .post{
-    width: 550px;   
-    margin: 30px 40px 50px 40px;
+    /* width: 550px;    */
+    /* margin: 30px 40px 50px 40px; */
     padding: 0 50px ;
 }
 .post__header{
@@ -50,4 +50,11 @@
 }
 .postIcon:hover{
     cursor: pointer;
+}
+@media screen and (max-width: 480px){
+    .post{
+    /* width: 550px;    */
+    /* margin: 30px 40px 50px 40px; */
+    padding: 0 10px ;
+    }
 }
