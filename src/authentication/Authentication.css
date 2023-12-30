@@ -1,8 +1,10 @@
+
 .authenticate {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0px 50px 0px 50px;
+    flex-wrap: wrap;
   }
   
   .auth__left {
@@ -42,4 +44,24 @@
   
   .auth__more > span > button:hover {
     cursor: pointer;
+  }
+
+  @media screen and (max-width:480px){
+    .authenticate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 2rem 0;
+  }
+  .auth__right {
+    order: 1;
+  }
+  .auth__left {
+    order: 2;
+  }
+  .auth__left > img {
+    width: 300px;
+    margin-top: 40px;
+  }
   }
