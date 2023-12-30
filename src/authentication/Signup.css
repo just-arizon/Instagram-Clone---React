@@ -39,3 +39,16 @@
   .signup > button:hover {
     cursor: pointer;
   }
+  @media screen and (max-width:480px){
+    .signup {
+    padding: 25px 20px;
+    margin: 20px 0;
+
+    }
+  }
+  @media screen and (max-width:350px){
+    .signup {
+      padding: 25px 30px;
+    margin: 20px 0 20px 0;
+    }
+  }
