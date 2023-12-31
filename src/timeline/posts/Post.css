@@ -1,5 +1,8 @@
+*{
+    /* border: 1px solid lightgreen; */
+}
 .post{
-    margin: 0 0 3.5em;
+    margin: 0 0 30px;
     padding: 0 50px ;
 }
 .post__header{

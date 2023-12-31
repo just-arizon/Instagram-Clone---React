@@ -44,14 +44,9 @@
     .homepage__timeline{
 }
 }
-/* @media screen and (max-width: 750px){
-    .homepage__nav{
-     flex: .2;
- 
-    }
+@media screen and (max-width: 480px){
     .homepage__timeline{
-    flex: .2;
 }
 
-} */
+}
 /**/

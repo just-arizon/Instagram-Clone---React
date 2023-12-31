@@ -1,10 +1,10 @@
 div.story{
-    /* background-color: bisque; */
+    background-color: bisque;
     padding: -.2em 0 .3em;
     display: flex;
     flex: 1;
     overflow: hidden;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .container{
     overflow:auto;
@@ -12,11 +12,12 @@ div.story{
     /* margin:0 10em; */
     justify-content: center;
     background-color: blueviolet;
+    flex: .8;
     /* width: 610px; */
     /* max-width: 610px; */
     /* min-width: 320px; */
     /* margin-left: 3.1em; */
-    /* padding-left: 3.1em; */
+    /* padding: 0 3.1em; */
 }
 ::-webkit-scrollbar{
 }
@@ -27,6 +28,7 @@ ul{
     gap: 1em;
     /* overflow-x: scroll; */
     background-color: #fff;
+    padding-left: 2em;
 }
 li.story_circle{
     list-style: none;
@@ -41,7 +43,7 @@ li.story_circle{
         justify-content: center;
     }
     .container{
-        margin-left: 3.1em;
+        /* margin-left: 3.1em; */
 
     /* max-width: 310px; */
     } 
@@ -55,6 +57,6 @@ li.story_circle{
 @media screen and (max-width: 480px){
     .container{
     /* max-width: 350px; */
-
+    flex: .6;
     }
 }
