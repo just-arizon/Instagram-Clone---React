@@ -18,12 +18,23 @@
 }
     .homepage__nav{
         /* display: none; */
-        position: fixed;
+    position: fixed;
     bottom: 0;
     display: flex;
     flex-direction: row;
     z-index: 1;
     width: 100%;
+    }
+    .homepage__timeline{
+    flex: 1;
+}
+}
+@media screen and (max-width: 750px){
+    .homepage__nav{
+        display: flex;
+     justify-content: center;
+     flex: .1;
+     border-right: 1px solid rgba(255, 255, 255, 0.128);
     }
     .homepage__timeline{
     flex: 1;
