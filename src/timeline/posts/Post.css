@@ -23,8 +23,7 @@
 }
 .post__image > img{
     width: 100%;
-    border-radius: 6px;
-    border: .6px solid rgba(128, 128, 128, .516);
+   
 }
 .post__footer{
     
@@ -53,8 +52,7 @@
 }
 @media screen and (max-width: 480px){
     .post{
-    /* width: 550px;    */
-    /* margin: 30px 40px 50px 40px; */
-    padding: 0 10px ;
+    margin: 0 0 30px 0;
+    padding: 0 5px ;
     }
 }

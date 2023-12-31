@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 }
     .homepage__nav{
         /* display: none; */
@@ -24,4 +25,7 @@
     z-index: 1;
     width: 100%;
     }
+    .homepage__timeline{
+    flex: 1;
+}
 }
