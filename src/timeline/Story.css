@@ -19,8 +19,6 @@ div.story{
     padding-left: 3.1em;
 }
 ::-webkit-scrollbar{
-    height: 30px;
-    /* background-color: #fff; */
 }
 ul{
     /* width: 500px; */
