@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     border-left: 1px solid  rgba(255, 255, 255, 0.128);
+    border-right: 1px solid  rgba(255, 255, 255, 0.128);
+    /* background-color: #fff; */
     /* justify-content: center; */
 }
 .timeline__container{
     display: flex;
 }
 .timeline__left{
-    /* flex: .7; */
 }
 .timeline__right{
     flex: .7;

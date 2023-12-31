@@ -49,8 +49,13 @@
     font-weight: 600;
     font-size: 14px;
   }
-  @media screen and (max-width: 1080px){
+  @media screen and (max-width: 1200px){
     .suggestions{
         display: none;
+    }
+}
+  @media screen and (min-width: 1200px){
+    .suggestions{
+        display: block;
     }
 }
