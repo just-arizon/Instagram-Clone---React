@@ -1,8 +1,11 @@
 .timeline{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-left: 1px solid  rgba(255, 255, 255, 0.128);
     /* justify-content: center; */
+}
+.timeline__container{
+    display: flex;
 }
 .timeline__left{
     /* flex: .7; */

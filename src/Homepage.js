@@ -3,6 +3,7 @@ import "./Homepage.css";
 import Sidenav from './navigation/Sidenav';
 import Timeline from './timeline/Timeline';
 
+
 function Homepage() {
   return (
     <div className='homepage'>
@@ -11,8 +12,7 @@ function Homepage() {
 
       </div>
       <div className="homepage__timeline">
-      <Timeline />
-       
+      <Timeline />  
       </div>
       <div className="homepage__suggestion">
        

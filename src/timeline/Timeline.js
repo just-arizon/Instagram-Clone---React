@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Timeline.css'
 import Suggestion from './Suggestion';
 import Post from './posts/Post';
+import Story from './story';
 
 function Timeline() {
   const [posts, setPosts] = useState([
@@ -36,21 +37,26 @@ function Timeline() {
   ]);
   return (
     <div className='timeline'>
-         <div className='timeline__left'>
-           <div className='timeline__post'>
-           {posts.map((post) => (
-            <Post
-            user={post.user}
-            postImage={post.postImage}
-            Likes={post.Likes}
-            timestamps={post.timestamps}
-          />
-          ))}
-           </div>
-        </div>
-        <div className='timeline__right'>
-        <Suggestion />
-        </div>
+     <div className="story">
+      <Story /> 
+     </div>
+         <div className='timeline__container'>
+           <div className='timeline__left'>
+             <div className='timeline__post'>
+             {posts.map((post) => (
+              <Post
+              user={post.user}
+              postImage={post.postImage}
+              Likes={post.Likes}
+              timestamps={post.timestamps}
+            />
+            ))}
+             </div>
+                   </div>
+                   <div className='timeline__right'>
+                   <Suggestion />
+                   </div>
+         </div>
     </div>
   )
 }
