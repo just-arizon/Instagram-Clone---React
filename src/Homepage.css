@@ -9,7 +9,7 @@
 .homepage__timeline{
     flex: .8;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 680px){
     .homepage {
     display: flex;
     flex-direction: row;

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Homepage.css";
 import Sidenav from './navigation/Sidenav';
 import Timeline from './timeline/Timeline';
+import Suggestion from './timeline/Suggestion';
 
 
 function Homepage() {
@@ -15,7 +16,7 @@ function Homepage() {
       <Timeline />  
       </div>
       <div className="homepage__suggestion">
-       
+      <Suggestion />
       </div>
     </div>
   );

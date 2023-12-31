@@ -3,7 +3,21 @@ import './Story.css'
 const story = () => {
   return (
     <div className='story'>
-      Hello, this is a story
+     <div className="container">
+        <ul className='story_container'>
+            <li className="story_circle">1</li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+            <li className="story_circle"></li>
+        </ul>
+     </div>
     </div>
   );
 }
