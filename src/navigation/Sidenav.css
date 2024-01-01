@@ -1,0 +1,151 @@
+
+
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    /* border-right: 1px solid #fff; */
+}
+.sidenav__logo{
+width: 120px;
+margin: 25px;
+}
+.logo-svg{
+    display: none;
+}
+.sidenav__buttons{
+    display: flex;
+    flex-direction: column;
+}
+.sidenav__button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+.sidenav__button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.sidenav__button > span{
+ font-size: 16px;
+ margin-left: 10px;
+}
+.sidenav__more{
+    position: fixed;
+    bottom: 3px;
+}
+@media screen and (max-width: 865px){
+    .sidenav__button{
+    padding: 10px 10px !important;
+    margin: 2em -.5em !important;
+}
+.logo-svg{
+    padding: 10px 30px 0 0 !important;
+    margin-left: 0 !important;
+}
+}
+@media screen and (max-width: 850px){
+    .sidenav{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    width: 100%;
+}
+.sidenav__logo,
+.logo-svg{
+display: none !important;
+}
+.sidenav__buttons{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.128);
+    width: 100%;
+    padding: 5px 12px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sidenav__button{
+    padding: 10px 10px !important;
+    margin: 5px 5px !important;
+
+}
+.more,
+.search_btn,
+.notifications_btn{
+    display: none;
+}
+.create_btn{
+    display: flex;
+    order: 4;
+}
+.message_btn{
+    display: flex;
+    order: 5;
+}
+.sidenav__button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: transparent;
+}
+}
+@media screen and (max-width: 940px){
+    
+    .sidenav__button:hover{
+        background-color: transparent !important;
+    }
+    }
+
+@media screen and (max-width: 920px){
+    .sidenav__logo{
+width: 100px;
+margin: 25px 30px 25px 15px;
+}
+.sidenav__button{
+    margin: 5px 2px;
+    padding: 10px 13px;
+}
+}
+
+@media screen and (max-width: 900px){
+    .logo-svg{
+    display: flex;
+    justify-content: center;
+    padding: 2px 20px !important;
+    margin-top: 1em;
+    margin-left: ;
+
+}
+    .sidenav__button > span,
+    .sidenav__logo{
+        display: none;
+    }
+    .sidenav__buttons{
+        
+    }
+   
+    .sidenav__button{
+        /* padding: 2px 25px !important; */
+        margin: 2em 20px;
+    }
+    
+    .sidenav__button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: transparent;
+}
+}
