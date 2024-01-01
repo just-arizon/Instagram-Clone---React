@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     border-left: 1px solid  rgba(255, 255, 255, 0.128);
-    border-right: 1px solid  rgba(255, 255, 255, 0.128);
     /* background-color: #fff; */
     /* justify-content: center; */
 }
@@ -15,10 +14,21 @@
 .timeline__right{
     flex: .7;
 }
+@media screen and (max-width: 585px){
+    .timeline{
+    width: 500px !important;
+}
+}
 @media screen and (max-width: 480px){
     .timeline{
     border-left: none;
     padding-top: ;
+    width: 370px !important;
+}
+@media screen and (max-width: 380px){
+ .timeline{
+    max-width: 270px;
+ }
 }
 .timeline__left{
     
@@ -30,5 +40,7 @@
 @media screen and (max-width: 750px){
     .timeline{
     border-left: transparent;
+    width: 570px;
+
 }
 }
