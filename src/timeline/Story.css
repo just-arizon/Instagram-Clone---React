@@ -11,7 +11,7 @@ div.story{
     display: flex;
     /* margin:0 10em; */
     justify-content: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* width: 610px; */
     /* max-width: 610px; */
     /* min-width: 320px; */
@@ -26,7 +26,7 @@ ul{
     display: flex;
     gap: 1em;
     /* overflow-x: scroll; */
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 li.story_circle{
     list-style: none;
@@ -36,6 +36,7 @@ li.story_circle{
    border-radius: 50%;
    text-align: center;
 }
+
 @media screen and (max-width: 900px){
     div.story{
         justify-content: center;
@@ -51,8 +52,13 @@ li.story_circle{
     flex: .5;
     }
 }
+@media screen and (max-width: 550px){
+    div.container{
+        flex: .8;
+    }
+}
 @media screen and (max-width: 480px){
     div.container{
-        /* flex: .5; */
+        flex: 1;
     }
 }
