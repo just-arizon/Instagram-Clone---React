@@ -21,12 +21,16 @@
 @media screen and (max-width: 480px){
     .timeline{
     border-left: none;
-    padding-top: ;
-    width: 370px !important;
+    width: 400px !important;
 }
 @media screen and (max-width: 380px){
  .timeline{
-    max-width: 270px;
+    max-width: 320px;
+ }
+}
+@media screen and (max-width: 300px){
+ .timeline{
+    max-width: 250px;
  }
 }
 .timeline__left{
