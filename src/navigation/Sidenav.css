@@ -45,15 +45,26 @@ margin: 25px;
 }
 @media screen and (max-width: 865px){
     .sidenav__button{
-    padding: 10px 10px !important;
-    margin: 2em -.5em !important;
+    /* padding: 10px 10px !important; */
+    /* margin: 2em -.5em !important; */
 }
 .logo-svg{
     padding: 10px 30px 0 0 !important;
     margin-left: 0 !important;
 }
 }
-@media screen and (max-width: 850px){
+@media (min-width: 670px) and (max-width: 710px){
+    .logo-svg{
+    padding: 0 !important;
+    margin-left: -7px !important;
+}
+    .sidenav__button{
+    padding: 10px 5px !important;
+    margin: 5px 5px !important;
+}
+}
+
+@media screen and (max-width: 690px){
     .sidenav{
     position: fixed;
     bottom: 0;
@@ -72,7 +83,7 @@ display: none !important;
     background-color: #000;
     border-top: 1px solid rgba(255, 255, 255, 0.128);
     width: 100%;
-    padding: 5px 12px;
+    /* padding: 5px 12px; */
 }
 .btn-container{
     display: flex;
@@ -82,7 +93,6 @@ display: none !important;
 .sidenav__button{
     padding: 10px 10px !important;
     margin: 5px 5px !important;
-
 }
 .more,
 .search_btn,
@@ -116,8 +126,8 @@ width: 100px;
 margin: 25px 30px 25px 15px;
 }
 .sidenav__button{
-    margin: 5px 2px;
-    padding: 10px 13px;
+    /* margin: 5px 2px;
+    padding: 10px 13px; */
 }
 }
 
@@ -127,6 +137,7 @@ margin: 25px 30px 25px 15px;
     justify-content: center;
     padding: 2px 20px !important;
     margin-top: 1em;
+    margin-bottom: 2em;
     margin-left: ;
 
 }
@@ -140,7 +151,7 @@ margin: 25px 30px 25px 15px;
    
     .sidenav__button{
         /* padding: 2px 25px !important; */
-        margin: 2em 20px;
+        /* margin: 2em 20px; */
     }
     
     .sidenav__button:hover{

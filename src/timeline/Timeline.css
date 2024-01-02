@@ -20,10 +20,10 @@
 }
 @media screen and (max-width: 480px){
     .timeline{
-    border-left: none;
-    width: 400px !important;
+    /* border-left: none; */
+    width: 420px !important;
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 420px){
  .timeline{
     max-width: 320px;
  }

@@ -38,7 +38,7 @@ function Timeline() {
   return (
     <div className='timeline'>
      <div className="story">
-      <Story /> 
+      {/* <Story />  */}
      </div>
          <div className='timeline__container'>
            <div className='timeline__left'>
@@ -53,8 +53,8 @@ function Timeline() {
             ))}
              </div>
                    </div>
-                   <div className='timeline__right'>
-                   </div>
+                   {/* <div className='timeline__right'>
+                   </div> */}
          </div>
     </div>
   )

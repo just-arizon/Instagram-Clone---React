@@ -18,14 +18,15 @@
 }
 @media screen and (max-width: 900px){
     .homepage__timeline{
-    flex: .5;
+    /* flex: 1; */
+    padding: 0 auto;
 }
 .homepage__nav{
-     flex: .5;
+     flex: .1;
     }
 } 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 690px){
     .homepage {
     display: flex;
     flex-direction: row;
