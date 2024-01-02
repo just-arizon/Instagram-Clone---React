@@ -1,3 +1,6 @@
+*{
+    overflow-x: hidden;
+}
 .homepage {
     display: flex;
     flex-direction: row;
@@ -7,7 +10,7 @@
     flex: .2;
 }
 .homepage__timeline{
-    flex: .8;
+    flex: 1;
 }
 
 

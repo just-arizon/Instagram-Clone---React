@@ -38,7 +38,7 @@ function post({user, postImage, Likes, timestamps}) {
           <Icon icon="material-symbols:bookmark-outline" className='postIcon'/>
           </div>
          </div>
-         Liked by {Likes} people
+         <div className="engagement">Liked by {Likes} people</div>
 
       </div>
     </div>

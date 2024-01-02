@@ -1,9 +1,11 @@
+
 .timeline{
     display: flex;
     flex-direction: column;
     border-left: 1px solid  rgba(255, 255, 255, 0.128);
     /* background-color: #fff; */
     /* justify-content: center; */
+    width: 100%;
 }
 .timeline__container{
     display: flex;
@@ -15,22 +17,22 @@
 }
 @media screen and (max-width: 585px){
     .timeline{
-    width: 500px !important;
+    width: 100% !important;
 }
 }
 @media screen and (max-width: 480px){
     .timeline{
     /* border-left: none; */
-    width: 420px !important;
+    width: 100% !important;
 }
 @media screen and (max-width: 420px){
  .timeline{
-    max-width: 320px;
+    max-width: 100%;
  }
 }
 @media screen and (max-width: 300px){
  .timeline{
-    max-width: 250px;
+    max-width: 100%;
  }
 }
 .timeline__left{
@@ -43,7 +45,8 @@
 @media screen and (max-width: 750px){
     .timeline{
     border-left: transparent;
-    width: 570px;
-
+    /* width: 570px; */
+    max-width: 100%;
+   
 }
 }
